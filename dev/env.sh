@@ -1,12 +1,12 @@
 #!/bin/bash
 
-image=ami-0ba7c4110ca9bfe0b
+image=ami-03d64741867e7bb94
 insTyp=t2.micro
-subnet=subnet-31a3804a
-SGs=sg-02d28d702be2ae7fc 
-KeyPair=terraform
+subnet=subnet-0e661742
+SGs=sg-077b0e31b27fa7da3
+KeyPair=newkey
 count=1
-region=eu-west-3
+region=us-east-2
 
 
 
