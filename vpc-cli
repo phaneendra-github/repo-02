@@ -1,1 +1,7 @@
-/usr/local/bin/aws ec2 create-vpc --cidr-block 10.90.0.0/16 --region us-east-2
+#!/bin/bash
+
+pwd=`pwd`
+
+source $pwd/env.sh
+
+/usr/local/bin/aws ec2 create-vpc --cidr-block $cidr --region $region
