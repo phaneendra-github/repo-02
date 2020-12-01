@@ -1,4 +1,0 @@
-mkdir dev-02
-cd dev-02
-touch f1 f2 f3
-
