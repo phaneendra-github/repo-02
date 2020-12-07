@@ -15,7 +15,7 @@ COPY . .
 
 ## Actuall commands to run 
 RUN mkdir docker-test
-RUN cp . /opt/docker-test
+#RUN cp . /opt/docker-test
 RUN cd docker-test
 RUN ls
 
